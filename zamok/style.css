@@ -1,0 +1,112 @@
+/*
+Theme Name: Zamok01
+Description: Тема для сайта вскрытия замков Zamok01
+Version: 1.0
+Author: Zamok01
+*/
+
+#foot {
+    height: 250px;
+    margin: 30px 0 50px;
+}
+
+#foot div {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 2px 2px 2px 2px
+}
+
+#foot div {
+    width: 150px;
+    height: 220px
+}
+
+div.pr {
+    position: relative;
+    float: left;
+    text-align: center
+}
+
+div.fleft {
+    float: left;
+    text-align: center
+}
+
+/* Стили для пагинации */
+.more-inner-wrap .page-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.more-inner-wrap .page-numbers li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.more-inner-wrap .page-numbers li:before {
+    display: none;
+}
+
+.more-inner-wrap .page-numbers a,
+.more-inner-wrap .page-numbers span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: var(--clr-base);
+    background: #fff;
+    border: 1px solid var(--clr-bg-light);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.more-inner-wrap .page-numbers a:hover {
+    background: var(--clr-bg-light);
+    border-color: var(--clr-att);
+    color: var(--clr-att);
+}
+
+.more-inner-wrap .page-numbers .current {
+    background: var(--clr-att);
+    color: #fff;
+    border-color: var(--clr-att);
+    font-weight: 600;
+    cursor: default;
+}
+
+.more-inner-wrap .page-numbers .current:hover {
+    background: var(--clr-att-second);
+    border-color: var(--clr-att-second);
+    color: #fff;
+}
+
+.more-inner-wrap .page-numbers .pagination-arrow {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.more-inner-wrap .page-numbers .pagination-text {
+    margin: 0 4px;
+    font-size: 14px;
+}
+
+.more-inner-wrap .pagination-info {
+    text-align: center;
+    margin-bottom: 15px;
+    color: var(--clr-light);
+    font-size: 14px;
+    font-weight: 400;
+}

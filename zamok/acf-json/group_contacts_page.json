@@ -1,0 +1,207 @@
+﻿{
+    "key":  "group_contacts_page",
+    "title":  "Страница контактов",
+    "fields":  [
+                   {
+                       "key":  "field_contacts_title",
+                       "label":  "Заголовок",
+                       "name":  "contacts_title",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "",
+                       "maxlength":  "",
+                       "placeholder":  "",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_contacts_description",
+                       "label":  "Описание",
+                       "name":  "contacts_description",
+                       "aria-label":  "",
+                       "type":  "textarea",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "",
+                       "new_lines":  "",
+                       "maxlength":  "",
+                       "placeholder":  "",
+                       "rows":  ""
+                   },
+                   {
+                       "key":  "field_contacts",
+                       "label":  "Контакты",
+                       "name":  "contacts",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "layout":  "table",
+                       "button_label":  "Добавить",
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_contact_title",
+                                              "label":  "Заголовок",
+                                              "name":  "title",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "",
+                                              "maxlength":  "",
+                                              "placeholder":  "",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_contacts"
+                                          },
+                                          {
+                                              "key":  "field_contact_value",
+                                              "label":  "Значение",
+                                              "name":  "value",
+                                              "aria-label":  "",
+                                              "type":  "wysiwyg",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "tabs":  "all",
+                                              "toolbar":  "full",
+                                              "media_upload":  1,
+                                              "default_value":  "",
+                                              "delay":  0,
+                                              "parent_repeater":  "field_contacts"
+                                          },
+                                          {
+                                              "key":  "field_contact_link",
+                                              "label":  "Ссылка на карту",
+                                              "name":  "link",
+                                              "aria-label":  "",
+                                              "type":  "url",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "",
+                                              "placeholder":  "",
+                                              "parent_repeater":  "field_contacts"
+                                          }
+                                      ]
+                   },
+                   {
+                       "key":  "field_map_code",
+                       "label":  "Код карты",
+                       "name":  "map_code",
+                       "aria-label":  "",
+                       "type":  "textarea",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "",
+                       "new_lines":  "",
+                       "maxlength":  "",
+                       "placeholder":  "",
+                       "rows":  ""
+                   },
+                   {
+                       "key":  "field_meta_keywords",
+                       "label":  "Meta Keywords",
+                       "name":  "meta_keywords",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "",
+                       "maxlength":  "",
+                       "placeholder":  "",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_meta_description",
+                       "label":  "Meta Description",
+                       "name":  "meta_description",
+                       "aria-label":  "",
+                       "type":  "textarea",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "",
+                       "new_lines":  "",
+                       "maxlength":  "",
+                       "placeholder":  "",
+                       "rows":  ""
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "page",
+                             "operator":  "==",
+                             "value":  "120"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  0
+}

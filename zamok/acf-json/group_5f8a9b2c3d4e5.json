@@ -1,0 +1,1008 @@
+﻿[
+    {
+        "key": "group_5f8a9b2c3d4e5",
+        "title": "Настройки сайта",
+        "fields": [
+            {
+                "key": "field_phone_main",
+                "label": "Основной телефон",
+                "name": "phone_main",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "+7 (495) 514-53-50",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_email_main",
+                "label": "Основной email",
+                "name": "email_main",
+                "aria-label": "",
+                "type": "email",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "zamok-01@yandex.ru",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_phones",
+                "label": "Телефоны в футере",
+                "name": "phones",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": 0,
+                "max": 0,
+                "rows_per_page": 20,
+                "layout": "table",
+                "button_label": "Добавить",
+                "collapsed": "",
+                "sub_fields": [
+                    {
+                        "key": "field_phone",
+                        "label": "Телефон",
+                        "name": "phone",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_phones"
+                    }
+                ]
+            },
+            {
+                "key": "field_social_vk",
+                "label": "Ссылка VK",
+                "name": "social_vk",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_social_wa",
+                "label": "Ссылка WhatsApp",
+                "name": "social_wa",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_social_tg",
+                "label": "Ссылка Telegram",
+                "name": "social_tg",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_footer_info",
+                "label": "Информация в футере",
+                "name": "footer_info",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "new_lines": "",
+                "maxlength": "",
+                "placeholder": "",
+                "rows": ""
+            },
+            {
+                "key": "field_footer_shield_title",
+                "label": "Заголовок щита в футере",
+                "name": "footer_shield_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_footer_shield_image",
+                "label": "Изображение щита",
+                "name": "footer_shield_image",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_footer_shield_text",
+                "label": "Текст под щитом",
+                "name": "footer_shield_text",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "new_lines": "",
+                "maxlength": "",
+                "placeholder": "",
+                "rows": ""
+            },
+            {
+                "key": "field_privacy_policy_link",
+                "label": "Ссылка на политику конфиденциальности",
+                "name": "privacy_policy_link",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_sitemap_link",
+                "label": "Ссылка на карту сайта",
+                "name": "sitemap_link",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_creator_link",
+                "label": "Ссылка на создателя",
+                "name": "creator_link",
+                "aria-label": "",
+                "type": "link",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array"
+            },
+            {
+                "key": "field_car_brands",
+                "label": "Марки автомобилей",
+                "name": "car_brands",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": 0,
+                "max": 0,
+                "rows_per_page": 20,
+                "layout": "table",
+                "button_label": "Добавить",
+                "collapsed": "",
+                "sub_fields": [
+                    {
+                        "key": "field_car_brand_value",
+                        "label": "Значение",
+                        "name": "value",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_car_brands"
+                    },
+                    {
+                        "key": "field_car_brand_label",
+                        "label": "Название",
+                        "name": "label",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_car_brands"
+                    }
+                ]
+            },
+            {
+                "key": "field_opening_times",
+                "label": "Время вскрытия",
+                "name": "opening_times",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": 0,
+                "max": 0,
+                "rows_per_page": 20,
+                "layout": "table",
+                "button_label": "Добавить",
+                "collapsed": "",
+                "sub_fields": [
+                    {
+                        "key": "field_opening_time_value",
+                        "label": "Значение",
+                        "name": "value",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_opening_times"
+                    },
+                    {
+                        "key": "field_opening_time_label",
+                        "label": "Название",
+                        "name": "label",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_opening_times"
+                    }
+                ]
+            },
+            {
+                "key": "field_faq_title",
+                "label": "Заголовок FAQ",
+                "name": "faq_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_faq_links",
+                "label": "Ссылки FAQ",
+                "name": "faq_links",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Добавить",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_faq_link_text",
+                        "label": "Текст",
+                        "name": "text",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_faq_links"
+                    },
+                    {
+                        "key": "field_faq_link_style",
+                        "label": "Стиль",
+                        "name": "style",
+                        "aria-label": "",
+                        "type": "select",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "white": "Белая кнопка",
+                            "default": "Обычная кнопка"
+                        },
+                        "multiple": 0,
+                        "allow_null": 0,
+                        "default_value": false,
+                        "ui": 0,
+                        "ajax": 0,
+                        "placeholder": "",
+                        "return_format": "value",
+                        "parent_repeater": "field_faq_links"
+                    },
+                    {
+                        "key": "field_faq_link_popup",
+                        "label": "Открывать в попапе",
+                        "name": "popup",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": 0,
+                        "message": "",
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": "",
+                        "parent_repeater": "field_faq_links"
+                    },
+                    {
+                        "key": "field_692033dcb5f0c",
+                        "label": "Ссылка new",
+                        "name": "ssylka_new",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": "",
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": "",
+                        "return_format": "object",
+                        "multiple": 0,
+                        "allow_null": 0,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": [],
+                        "parent_repeater": "field_faq_links"
+                    }
+                ]
+            },
+            {
+                "key": "field_faq_items",
+                "label": "Элементы FAQ",
+                "name": "faq_items",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": 0,
+                "max": 0,
+                "rows_per_page": 20,
+                "layout": "table",
+                "button_label": "Добавить",
+                "collapsed": "",
+                "sub_fields": [
+                    {
+                        "key": "field_faq_item_question",
+                        "label": "Вопрос",
+                        "name": "question",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_faq_items"
+                    },
+                    {
+                        "key": "field_faq_item_answer",
+                        "label": "Ответ",
+                        "name": "answer",
+                        "aria-label": "",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1,
+                        "default_value": "",
+                        "delay": 0,
+                        "parent_repeater": "field_faq_items"
+                    }
+                ]
+            },
+            {
+                "key": "field_action_title",
+                "label": "Заголовок блока действия",
+                "name": "action_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_action_subtitle",
+                "label": "Подзаголовок блока действия",
+                "name": "action_subtitle",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_action_image",
+                "label": "Изображение блока действия",
+                "name": "action_image",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_action_info",
+                "label": "Информация блока действия",
+                "name": "action_info",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "new_lines": "",
+                "maxlength": "",
+                "placeholder": "",
+                "rows": ""
+            },
+            {
+                "key": "field_reviews_archive_title",
+                "label": "Заголовок архива отзывов",
+                "name": "reviews_archive_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_reviews_archive_description",
+                "label": "Описание архива отзывов",
+                "name": "reviews_archive_description",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "new_lines": "",
+                "maxlength": "",
+                "placeholder": "",
+                "rows": ""
+            },
+            {
+                "key": "field_articles_archive_title",
+                "label": "Заголовок архива статей",
+                "name": "articles_archive_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_articles_archive_description",
+                "label": "Описание архива статей",
+                "name": "articles_archive_description",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "new_lines": "",
+                "maxlength": "",
+                "placeholder": "",
+                "rows": ""
+            },
+            {
+                "key": "field_meta_keywords_default",
+                "label": "Meta Keywords (по умолчанию)",
+                "name": "meta_keywords",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "Ключевые слова для SEO по умолчанию (используются, если не указаны на конкретной странице)",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_meta_description_default",
+                "label": "Meta Description (по умолчанию)",
+                "name": "meta_description",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "Описание для SEO по умолчанию (используется, если не указано на конкретной странице)",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Вскрытие замков машины без повреждений. Вскрытие сейфов без сверления. Вскрытие квартир круглосуточно. Аварийная служба Zamok01",
+                "new_lines": "",
+                "maxlength": "",
+                "placeholder": "",
+                "rows": ""
+            },
+            {
+                "key": "field_og_image_default",
+                "label": "Open Graph изображение (по умолчанию)",
+                "name": "og_image",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "Изображение для социальных сетей по умолчанию",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_yandex_verification",
+                "label": "Yandex Verification",
+                "name": "yandex_verification",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "Код верификации Яндекс.Вебмастер",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_favicon_32",
+                "label": "Favicon 32x32",
+                "name": "favicon_32",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_favicon_192",
+                "label": "Favicon 192x192",
+                "name": "favicon_192",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_favicon_180",
+                "label": "Apple Touch Icon 180x180",
+                "name": "favicon_180",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_favicon_270",
+                "label": "MS Tile Image 270x270",
+                "name": "favicon_270",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_logo_url",
+                "label": "URL логотипа для Schema.org",
+                "name": "logo_url",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "Логотип для структурированных данных",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

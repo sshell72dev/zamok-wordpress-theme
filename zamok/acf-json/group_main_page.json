@@ -1,0 +1,505 @@
+﻿[
+    {
+        "key": "group_main_page",
+        "title": "Главная страница",
+        "fields": [
+            {
+                "key": "field_main_title",
+                "label": "Главный заголовок",
+                "name": "main_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_main_services",
+                "label": "Основные услуги",
+                "name": "main_services",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": 0,
+                "max": 0,
+                "rows_per_page": 20,
+                "layout": "table",
+                "button_label": "Добавить",
+                "collapsed": "",
+                "sub_fields": [
+                    {
+                        "key": "field_main_service_title",
+                        "label": "Заголовок",
+                        "name": "title",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_main_services"
+                    },
+                    {
+                        "key": "field_main_service_image",
+                        "label": "Изображение",
+                        "name": "image",
+                        "aria-label": "",
+                        "type": "image",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": 0,
+                        "min_height": 0,
+                        "min_size": 0,
+                        "max_width": 0,
+                        "max_height": 0,
+                        "max_size": 0,
+                        "mime_types": "",
+                        "parent_repeater": "field_main_services"
+                    },
+                    {
+                        "key": "field_main_service_tags",
+                        "label": "Теги",
+                        "name": "tags",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "min": 0,
+                        "max": 0,
+                        "rows_per_page": 20,
+                        "layout": "table",
+                        "button_label": "Добавить",
+                        "collapsed": "",
+                        "sub_fields": [
+                            {
+                                "key": "field_main_service_tag_text",
+                                "label": "Текст",
+                                "name": "text",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": false,
+                                "conditional_logic": false,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_main_service_tags"
+                            },
+                            {
+                                "key": "field_main_service_tag_link",
+                                "label": "Ссылка",
+                                "name": "link",
+                                "aria-label": "",
+                                "type": "url",
+                                "instructions": "",
+                                "required": false,
+                                "conditional_logic": false,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "parent_repeater": "field_main_service_tags"
+                            },
+                            {
+                                "key": "field_main_service_tag_half",
+                                "label": "Половина ширины",
+                                "name": "half_width",
+                                "aria-label": "",
+                                "type": "true_false",
+                                "instructions": "",
+                                "required": false,
+                                "conditional_logic": false,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": 0,
+                                "message": "",
+                                "ui": 0,
+                                "ui_on_text": "",
+                                "ui_off_text": "",
+                                "parent_repeater": "field_main_service_tags"
+                            },
+                            {
+                                "key": "field_691eef33e2336",
+                                "label": "Выбор записи",
+                                "name": "vybor_zapisi",
+                                "aria-label": "",
+                                "type": "post_object",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "post_type": [
+                                    "page"
+                                ],
+                                "post_status": [
+                                    "publish"
+                                ],
+                                "taxonomy": "",
+                                "return_format": "object",
+                                "multiple": 0,
+                                "allow_null": 0,
+                                "bidirectional": 0,
+                                "ui": 1,
+                                "bidirectional_target": [],
+                                "parent_repeater": "field_main_service_tags"
+                            }
+                        ],
+                        "parent_repeater": "field_main_services"
+                    }
+                ]
+            },
+            {
+                "key": "field_prices",
+                "label": "Цены",
+                "name": "prices",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": 0,
+                "max": 0,
+                "rows_per_page": 20,
+                "layout": "table",
+                "button_label": "Добавить",
+                "collapsed": "",
+                "sub_fields": [
+                    {
+                        "key": "field_price_title",
+                        "label": "Заголовок",
+                        "name": "title",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_prices"
+                    },
+                    {
+                        "key": "field_price_price",
+                        "label": "Цена",
+                        "name": "price",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_prices"
+                    },
+                    {
+                        "key": "field_price_link",
+                        "label": "Ссылка",
+                        "name": "link",
+                        "aria-label": "",
+                        "type": "url",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "parent_repeater": "field_prices"
+                    },
+                    {
+                        "key": "field_691f023f162cd",
+                        "label": "Выбрать запись",
+                        "name": "vybrat_zapis",
+                        "aria-label": "",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "page"
+                        ],
+                        "post_status": [
+                            "publish"
+                        ],
+                        "taxonomy": "",
+                        "return_format": "object",
+                        "multiple": 0,
+                        "allow_null": 0,
+                        "bidirectional": 0,
+                        "ui": 1,
+                        "bidirectional_target": [],
+                        "parent_repeater": "field_prices"
+                    }
+                ]
+            },
+            {
+                "key": "field_main_info_text",
+                "label": "Информационный текст",
+                "name": "main_info_text",
+                "aria-label": "",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "default_value": "",
+                "delay": 0
+            },
+            {
+                "key": "field_advantages_title",
+                "label": "Заголовок преимуществ",
+                "name": "advantages_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_advantages",
+                "label": "Преимущества",
+                "name": "advantages",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": 0,
+                "max": 0,
+                "rows_per_page": 20,
+                "layout": "table",
+                "button_label": "Добавить",
+                "collapsed": "",
+                "sub_fields": [
+                    {
+                        "key": "field_advantage_text",
+                        "label": "Текст",
+                        "name": "text",
+                        "aria-label": "",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": false,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1,
+                        "default_value": "",
+                        "delay": 0,
+                        "parent_repeater": "field_advantages"
+                    }
+                ]
+            },
+            {
+                "key": "field_services_title",
+                "label": "Заголовок услуг",
+                "name": "services_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_reviews_title",
+                "label": "Заголовок отзывов",
+                "name": "reviews_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_meta_keywords",
+                "label": "Meta Keywords",
+                "name": "meta_keywords",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_meta_description",
+                "label": "Meta Description",
+                "name": "meta_description",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "new_lines": "",
+                "maxlength": "",
+                "placeholder": "",
+                "rows": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "119"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
