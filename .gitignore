@@ -71,4 +71,5 @@ wp-content/backups/
 
 # Project specific
 safe_type.txt
+*.wpress
 
