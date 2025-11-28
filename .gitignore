@@ -71,5 +71,5 @@ wp-content/backups/
 
 # Project specific
 safe_type.txt
-# *.wpress - исключено для добавления конкретного файла бэкапа
+*.wpress
 
